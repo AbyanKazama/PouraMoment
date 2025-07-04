@@ -143,10 +143,9 @@
         border-radius: 10px;
       }
 
-      /* ✅ Fixed Member Section */
       .member-list {
         display: grid;
-        grid-template-columns: repeat(4, 1fr); /* 4 kolom */
+        grid-template-columns: repeat(4, 1fr);
         gap: 1rem;
         padding: 1.5rem;
         justify-items: center;
@@ -160,8 +159,8 @@
         overflow: hidden;
         display: flex;
         flex-direction: column;
-        padding: 0; /* pastikan nggak ada padding */
-        margin: 0; /* pastikan nggak ada margin */
+        padding: 0;
+        margin: 0;
       }
 
       .member img {
@@ -411,7 +410,7 @@
           width: 100%;
           padding: 1rem 1.2rem;
           display: flex;
-          justify-content: center; /* kiri */
+          justify-content: center;
           align-items: center;
           background-color: transparent;
           z-index: 10;
@@ -428,7 +427,7 @@
           color: white;
           width: 100%;
           z-index: 2;
-          min-height: 50vh; /* tambahkan ini */
+          min-height: 50vh;
           display: flex;
           flex-direction: column;
           justify-content: center;
@@ -447,8 +446,8 @@
 
         .hero-right img {
           width: 90%;
-          height: 90%; /* Ubah dari 100% jadi auto */
-          object-fit: contain; /* Atur agar tidak terlalu zoom */
+          height: 90%;
+          object-fit: contain;
           display: block;
         }
 
